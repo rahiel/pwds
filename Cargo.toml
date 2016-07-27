@@ -1,0 +1,11 @@
+[package]
+name = "pwds"
+version = "0.1.0"
+authors = ["Rahiel Kasim <rahielkasim@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/rahiel/pwds"
+keywords = ["shell", "prompt", "pwd"]
+description = "print the path of the current working directory, shortly"
+
+[dependencies]
