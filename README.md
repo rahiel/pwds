@@ -42,17 +42,15 @@ The current (most right) directory is never shortened.
 
 # References
 
-The concept of `pwds` is from [fish shell][fish], which provides this behaviour
-out of the box (with the [`prompt_pwd`][prompt_pwd] function). If you're not
-bound to your current shell, try the ergonomic and user-friendly shell today:
-[`><>`][fish].
+I encountered the concept of `pwds` in [fish][] and more recently in [xonsh][],
+two modern and user-friendly shells. I'd use xonsh but a few issues keep me from
+switching. In the meantime I'm trying to improve the experience of the Bash
+shell, with as one of the results this program.
 
 * [Bash prompts](https://sanctum.geek.nz/arabesque/bash-prompts/)
 * [Alternative prompt directory shortening for Bash](https://sanctum.geek.nz/arabesque/prompt-directory-shortening/)
-* [xonsh shell](http://xon.sh/), another shell with `pwds` like prompt path
-  shortening by default.
 * [pwds.py][]: Python version of `pwds`.
 
 [fish]: https://fishshell.com
-[prompt_pwd]: https://github.com/fish-shell/fish-shell/blob/master/share/functions/prompt_pwd.fish
 [pwds.py]: https://gist.github.com/rahiel/cdfda857534bc9dd4456e404a996e38f
+[xonsh]: http://xon.sh
