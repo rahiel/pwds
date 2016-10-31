@@ -11,6 +11,9 @@ The current working directory in your prompt can get uncomfortably large,
 leaving little space to type your own commands. With pwds paths like
 `/home/user/Code/rust/src/doc/nomicon` are displayed as `~/C/r/s/d/nomicon`.
 
+It shows the first two characters for (hidden) directories that start with a
+".". So `/home/rahiel/.config/autostart` becomes `~/.c/autostart`.
+
 # Installation
 
 Install pwds with cargo:

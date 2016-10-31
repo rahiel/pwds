@@ -50,10 +50,14 @@ fn main() {
             let char_count = dirs[i].chars().count();
             if char_count > 1 {
                 length = length - char_count + 1;
-                let mut chars = dirs[i].char_indices();
-                let start = chars.next().unwrap().0;
-                let end = chars.next().unwrap().0;
-                dirs[i] = &dirs[i][start..end];
+                let mut chars = dirs[i].char_indices();  // iterator with (position, char) tuples
+                let start = chars.next().unwrap();
+                let mut end = chars.next().unwrap();
+                if start.1 == '.' {    // show an extra char for hidden directories
+                    length += 1;
+                    end = chars.next().unwrap();
+                }
+                dirs[i] = &dirs[i][start.0..end.0];
             }
             i = i + 1;
         }
