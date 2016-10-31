@@ -12,7 +12,7 @@ leaving little space to type your own commands. With pwds paths like
 `/home/user/Code/rust/src/doc/nomicon` are displayed as `~/C/r/s/d/nomicon`.
 
 It shows the first two characters for (hidden) directories that start with a
-".". So `/home/rahiel/.config/autostart` becomes `~/.c/autostart`.
+dot. So `/home/rahiel/.config/autostart` becomes `~/.c/autostart`.
 
 # Installation
 
@@ -52,7 +52,7 @@ shell, with as one of the results this program.
 
 * [Bash prompts](https://sanctum.geek.nz/arabesque/bash-prompts/)
 * [Alternative prompt directory shortening for Bash](https://sanctum.geek.nz/arabesque/prompt-directory-shortening/)
-* [pwds.py][]: Python version of `pwds`.
+* [Python prototype of pwds][pwds.py]
 
 [fish]: https://fishshell.com
 [pwds.py]: https://gist.github.com/rahiel/cdfda857534bc9dd4456e404a996e38f
