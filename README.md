@@ -20,6 +20,8 @@ Install pwds with cargo:
 ``` shell
 cargo install pwds
 ```
+The directory `~/.cargo/bin` needs to be in your PATH for your shell to find the
+`pwds` binary. Follow [this guide][path] if you need help.
 
 Then you need to customize your PS1 in your shell's initialization file, e.g.
 `.bashrc`. Here is a standard prompt, the `\w` is an escape code for the current
@@ -32,6 +34,8 @@ replace `\w` with `$(pwds)`:
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$(pwds)\[\033[00m\]\$ '
 ```
 and enjoy a smaller prompt!
+
+[path]: https://www.cpu.re/installing-programs-from-non-system-package-managers-without-sudo/
 
 # Customization
 

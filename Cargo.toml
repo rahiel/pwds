@@ -6,6 +6,6 @@ license = "Apache-2.0"
 readme = "README.md"
 homepage = "https://github.com/rahiel/pwds"
 keywords = ["shell", "prompt", "pwd"]
-description = "print the path of the current working directory, shortly"
+description = "Print the path of the current working directory, shortly."
 
 [dependencies]
