@@ -35,7 +35,7 @@ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$(pwds)\[\033[00m\]\$ '
 ```
 and enjoy a smaller prompt!
 
-[path]: https://www.cpu.re/installing-programs-from-non-system-package-managers-without-sudo/
+[path]: https://www.rahielkasim.com/installing-programs-from-non-system-package-managers-without-sudo/
 
 # Customization
 
